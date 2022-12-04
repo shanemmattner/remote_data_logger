@@ -9,6 +9,9 @@ This document is for the hardware portion of the project.
 4. Create programming circuit for ESP32C3
     - Only need `USB D+/D-` pins `18/19` to program the ESP32-C3 because it has a `integrated USB Serial/JTAG Controller`, see [doc](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/api-guides/usb-serial-jtag-console.html)
     - [USB C plug vs recepticle](https://www.arrow.com/en/research-and-events/articles/usb-technology-c-plug-and-receptacle-pinouts)
+5. Add power circuits
+    - `USB`
+
 
 
 
@@ -25,4 +28,5 @@ This document is for the hardware portion of the project.
     - `Enable` circuit
         - `RC` circuit
     - Programming circuit
+
 

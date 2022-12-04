@@ -1,9 +1,6 @@
 [submodule "submodules/kicad-libraries"]
 	path = submodules/kicad-libraries
 	url = git@github.com:espressif/kicad-libraries.git
-[submodule "submodules/type_c"]
-	path = submodules/type_c
-	url = git@github.com:ai03-2725/Type-C.pretty.git
-[submodule "type_c.pretty"]
-	path = type_c.pretty
+[submodule "submodules/type_c.pretty"]
+	path = submodules/type_c.pretty
 	url = git@github.com:ai03-2725/Type-C.pretty.git

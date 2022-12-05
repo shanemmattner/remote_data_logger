@@ -10,10 +10,36 @@ This document is for the hardware portion of the project.
     - Only need `USB D+/D-` pins `18/19` to program the ESP32-C3 because it has a `integrated USB Serial/JTAG Controller`, see [doc](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/api-guides/usb-serial-jtag-console.html)
     - [USB C plug vs recepticle](https://www.arrow.com/en/research-and-events/articles/usb-technology-c-plug-and-receptacle-pinouts)
 5. Add power circuits
-    - `USB`
+    - `USB` 
+    - `DC 3v-40v`
+6. ADC circuit
+    - Op-amp voltage follower
+    - 5 voltage ranges monitored:
+        - 2 x `3.3v`
+        - 1 x `5v`
+        - 1 x `12v`
+        - 1 x `24v`
+7. uSD card circuit
+    - [pull-ups for all unused pins](https://electronics.stackexchange.com/questions/39571/how-to-do-pulling-up-or-down-correctly-when-interfacing-a-microsd-card)
 
 
+## Convert EasyEDA footprints to KiCAD
+JLCPCB is the cheapest board house including assembly.  But you have to use their specific [parts library](https://jlcpcb.com/parts). To easily get footprints for parts you can:
+1. Open the footprint in EasyEDA
+2. `File` > `Export` > `EasyEDA`
+3. Insteall [lc2kicad](https://github.com/RigoLigoRLC/LC2KiCad)
+4. Alias the command so it's easier to user
+```bash
+alias lc2kicad="/home/shane/Desktop/lc2kicad/build/lc2kicad"
+```
+5. Convert `EasyEDA` footprint to KiCAD
+```bash
+lc2kicad ~/Downloads/PCB_NEW_PCB_2022-12-04.json
+```
+6. Open footprint in KiCAD
+7. Create new footprint in KiCAD and copy/paste part
 
+https://jlcpcb.com/parts
 
 ## TODO
 - Page Documentation

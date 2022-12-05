@@ -1,0 +1,82 @@
+Info: Processing symbol 'TP10:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'SD1:lib:472192001'.
+Info: Processing symbol 'TP1:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP2:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP3:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP4:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP5:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP6:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP7:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP8:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP9:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'TP11:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'TP12:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
+Info: Processing symbol 'U1:Espressif:ESP32-C3-MINI-1'.
+Info: Processing symbol 'U2:lib:8-WDFN Exposed Pad'.
+Info: Processing symbol 'U3:lib:LM321MF'.
+Info: Processing symbol 'U4:lib:LM321MF'.
+Info: Processing symbol 'U5:lib:LM321MF'.
+Info: Processing symbol 'U6:lib:LM321MF'.
+Info: Processing symbol 'U7:lib:LM321MF'.
+Info: Processing symbol 'U8:lib:LM321MF'.
+Info: Processing symbol 'UART1:TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm'.
+Info: Processing symbol 'USB-C1:lib:USB-TYPE-C-018'.
+Info: Processing symbol 'D2:lib:B0530WS_SE'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'L1:lib:SMDRI127-221MT'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'DC_Source1:TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'D3:lib:B0530WS_SE'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R11:'.
+Info: Processing symbol 'C4:lib:RT1H101M0810'.
+Info: Processing symbol 'C6:lib:KF471M016F115A'.
+Info: Processing symbol 'D1:lib:B0530WS_SE'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0603_1608Metric'.
+Add net Net-(U3-Pad1).
+Add net Net-(U4-Pad1).
+Add net Net-(U8-Pad1).
+Reconnect U8 pin 1 from Net-(ADC6-Pad2) to Net-(U8-Pad1).
+Reconnect U3 pin 1 from Net-(ADC5-Pad2) to Net-(U3-Pad1).
+Reconnect U4 pin 1 from Net-(ADC1-Pad2) to Net-(U4-Pad1).
+Add TP12 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add net Net-(R12-Pad1).
+Add TP10 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Reconnect R12 pin 1 from Net-(ADC4-Pad2) to Net-(R12-Pad1).
+Reconnect R10 pin 1 from Net-(ADC2-Pad2) to Net-(R10-Pad1).
+Add TP1 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add net Net-(R10-Pad1).
+Add TP2 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add TP3 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add TP4 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add TP5 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add TP6 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add TP7 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add TP8 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add TP9 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Add TP11 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
+Warning: No net found for symbol U1 pin 14.
+Warning: No net found for symbol U1 pin 11.
+Warning: No net found for symbol SD1 pin 12.
+Warning: No net found for symbol SD1 pin 11.
+Warning: No net found for symbol SD1 pin 10.
+Warning: No net found for symbol USB-C1 pin A5.
+Warning: No net found for symbol USB-C1 pin B5.
+Error: Cannot add R11 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 1.

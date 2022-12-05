@@ -4,3 +4,6 @@
 [submodule "submodules/type_c.pretty"]
 	path = submodules/type_c.pretty
 	url = git@github.com:ai03-2725/Type-C.pretty.git
+[submodule "submodules/lc2kicad"]
+	path = submodules/lc2kicad
+	url = git@github.com:RigoLigoRLC/LC2KiCad.git

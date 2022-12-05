@@ -411,27 +411,27 @@
     (symbol "RT1H101M0810_0_1"
       (polyline
         (pts
-          (xy -0.381 -5.715)
-          (xy -0.381 -2.667)
+          (xy -0.508 -6.604)
+          (xy -0.508 -3.556)
         )
         (stroke (width 0.3048) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0.635 -5.715)
-          (xy 0.635 -2.667)
+          (xy 0.508 -6.604)
+          (xy 0.508 -3.556)
         )
         (stroke (width 0.3302) (type default) (color 0 0 0 0))
         (fill (type none))
       )
     )
     (symbol "RT1H101M0810_1_1"
-      (pin passive line (at -2.413 -4.191 0) (length 2.032)
+      (pin passive line (at -2.54 -5.08 0) (length 2.032)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.667 -4.191 180) (length 2.032)
+      (pin passive line (at 2.54 -5.08 180) (length 2.032)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

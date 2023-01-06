@@ -1,82 +1,78 @@
-Info: Processing symbol 'TP10:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'R13:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R14:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R15:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'SD1:lib:472192001'.
-Info: Processing symbol 'TP1:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP2:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP3:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP4:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP5:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP6:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP7:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP8:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP9:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'TP11:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'TP12:TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm'.
-Info: Processing symbol 'U1:Espressif:ESP32-C3-MINI-1'.
-Info: Processing symbol 'U2:lib:8-WDFN Exposed Pad'.
-Info: Processing symbol 'U3:lib:LM321MF'.
-Info: Processing symbol 'U4:lib:LM321MF'.
-Info: Processing symbol 'U5:lib:LM321MF'.
-Info: Processing symbol 'U6:lib:LM321MF'.
-Info: Processing symbol 'U7:lib:LM321MF'.
-Info: Processing symbol 'U8:lib:LM321MF'.
-Info: Processing symbol 'UART1:TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm'.
-Info: Processing symbol 'USB-C1:lib:USB-TYPE-C-018'.
-Info: Processing symbol 'D2:lib:B0530WS_SE'.
-Info: Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R3:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'L1:lib:SMDRI127-221MT'.
-Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'DC_Source1:TestPoint:TestPoint_Bridge_Pitch7.62mm_Drill1.3mm'.
-Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'D3:lib:B0530WS_SE'.
-Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R7:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R8:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R9:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'C5:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'R12:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'R11:'.
-Info: Processing symbol 'C4:lib:RT1H101M0810'.
-Info: Processing symbol 'C6:lib:KF471M016F115A'.
-Info: Processing symbol 'D1:lib:B0530WS_SE'.
-Info: Processing symbol 'R10:Resistor_SMD:R_0603_1608Metric'.
-Add net Net-(U3-Pad1).
-Add net Net-(U4-Pad1).
-Add net Net-(U8-Pad1).
-Reconnect U8 pin 1 from Net-(ADC6-Pad2) to Net-(U8-Pad1).
-Reconnect U3 pin 1 from Net-(ADC5-Pad2) to Net-(U3-Pad1).
-Reconnect U4 pin 1 from Net-(ADC1-Pad2) to Net-(U4-Pad1).
-Add TP12 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add net Net-(R12-Pad1).
-Add TP10 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Reconnect R12 pin 1 from Net-(ADC4-Pad2) to Net-(R12-Pad1).
-Reconnect R10 pin 1 from Net-(ADC2-Pad2) to Net-(R10-Pad1).
-Add TP1 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add net Net-(R10-Pad1).
-Add TP2 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add TP3 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add TP4 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add TP5 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add TP6 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add TP7 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add TP8 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add TP9 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Add TP11 (footprint 'TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm').
-Warning: No net found for symbol U1 pin 14.
-Warning: No net found for symbol U1 pin 11.
-Warning: No net found for symbol SD1 pin 12.
-Warning: No net found for symbol SD1 pin 11.
-Warning: No net found for symbol SD1 pin 10.
-Warning: No net found for symbol USB-C1 pin A5.
-Warning: No net found for symbol USB-C1 pin B5.
-Error: Cannot add R11 (no footprint assigned).
-
-
-Info: Total warnings: 0, errors: 1.
+Update symbol #PWR0104 from 'power:GND' to 'power:GND': OK
+Update symbol TP8 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR025 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol #PWR0106 from 'power:+5V' to 'power:+5V': OK
+Error: Update symbol USB-C1 from 'lib:USB-TYPE-C-018' to 'lib:USB-TYPE-C-018': *** symbol not found ***
+Update symbol R3 from 'Device:R_Small' to 'Device:R_Small': OK
+Update symbol R2 from 'Device:R_Small' to 'Device:R_Small': OK
+Update symbol #PWR0105 from 'power:GND' to 'power:GND': OK
+Update symbol R15 from 'Device:R_Small' to 'Device:R_Small': OK
+Update symbol R12 from 'Device:R_Small' to 'Device:R_Small': OK
+Update symbol TP2 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol TP4 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR031 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol #PWR030 from 'power:GND' to 'power:GND': OK
+Error: Update symbol U7 from 'lib:LM321MF' to 'lib:LM321MF': *** symbol not found ***
+Update symbol TP3 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR015 from 'power:GND' to 'power:GND': OK
+Update symbol TP1 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR016 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR021 from 'power:GND' to 'power:GND': OK
+Update symbol R14 from 'Device:R_Small' to 'Device:R_Small': OK
+Update symbol #PWR022 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR032 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR034 from 'power:GND' to 'power:GND': OK
+Error: Update symbol U8 from 'lib:LM321MF' to 'lib:LM321MF': *** symbol not found ***
+Update symbol #PWR033 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol #PWR019 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR035 from 'power:GND' to 'power:GND': OK
+Update symbol TP12 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR017 from 'power:GND' to 'power:GND': OK
+Update symbol TP9 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR018 from 'power:GND' to 'power:GND': OK
+Update symbol TP11 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol TP10 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Error: Update symbol U6 from 'lib:LM321MF' to 'lib:LM321MF': *** symbol not found ***
+Update symbol #PWR023 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol R11 from 'Device:R_Small' to 'Device:R_Small': OK
+Update symbol TP7 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR020 from 'power:GND' to 'power:GND': OK
+Update symbol R13 from 'Device:R_Small' to 'Device:R_Small': OK
+Update symbol R10 from 'Device:R_Small' to 'Device:R_Small': OK
+Error: Update symbol U5 from 'lib:LM321MF' to 'lib:LM321MF': *** symbol not found ***
+Update symbol #PWR028 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR029 from 'power:+3V3' to 'power:+3V3': OK
+Error: Update symbol U4 from 'lib:LM321MF' to 'lib:LM321MF': *** symbol not found ***
+Error: Update symbol U3 from 'lib:LM321MF' to 'lib:LM321MF': *** symbol not found ***
+Update symbol #PWR026 from 'power:GND' to 'power:GND': OK
+Update symbol TP6 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol TP5 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR024 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR027 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol #PWR04 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR013 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol R8 from 'Device:R_Small' to 'Device:R_Small': OK
+Update symbol #PWR07 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol R4 from 'Device:R_Small' to 'Device:R_Small': OK
+Error: Update symbol SD1 from 'lib:472192001' to 'lib:472192001': *** symbol not found ***
+Update symbol TP13 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol #PWR09 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR08 from 'power:GND' to 'power:GND': OK
+Update symbol #PWR014 from 'power:GND' to 'power:GND': OK
+Update symbol R9 from 'Device:R_Small' to 'Device:R_Small': OK
+Error: Update symbol D1 from 'lib:B0530WS_SE' to 'lib:B0530WS_SE': *** symbol not found ***
+Update symbol TP14 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Error: Update symbol D2 from 'lib:B0530WS_SE' to 'lib:B0530WS_SE': *** symbol not found ***
+Update symbol #PWR06 from 'power:+5V' to 'power:+5V': OK
+Update symbol #PWR012 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol #PWR03 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol RX0 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol C3 from 'Device:C_Small' to 'Device:C_Small': OK
+Update symbol TX0 from 'Connector:TestPoint' to 'Connector:TestPoint': OK
+Update symbol C2 from 'Device:C_Small' to 'Device:C_Small': OK
+Update symbol #PWR02 from 'power:GND' to 'power:GND': OK
+Update symbol C1 from 'Device:C_Small' to 'Device:C_Small': OK
+Update symbol #PWR01 from 'power:+3V3' to 'power:+3V3': OK
+Update symbol R1 from 'Device:R_Small' to 'Device:R_Small': OK
+Error: Update symbol U1 from 'Espressif:ESP32-C3-MINI-1' to 'Espressif:ESP32-C3-MINI-1': *** symbol not found ***
+Update symbol #PWR05 from 'power:GND' to 'power:GND': OK

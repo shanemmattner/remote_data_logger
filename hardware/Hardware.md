@@ -11,7 +11,7 @@ This document is for the hardware portion of the project.
     - [USB C plug vs recepticle](https://www.arrow.com/en/research-and-events/articles/usb-technology-c-plug-and-receptacle-pinouts)
 5. Add power circuits
     - `USB` 
-    - `DC 3v-40v`
+    - `Battery 3.7v`
 6. ADC circuit
     - Op-amp voltage follower
     - 5 voltage ranges monitored:
@@ -46,7 +46,6 @@ https://jlcpcb.com/parts
 - Circuit documenations
 - spec specific passives
 
-
 ## Circuits
 - ESP32-C3
     - Power bulk cap
@@ -55,4 +54,6 @@ https://jlcpcb.com/parts
         - `RC` circuit
     - Programming circuit
 
+## Notes
+- Use relative path libraries in KiCAD
 

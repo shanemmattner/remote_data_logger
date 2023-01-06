@@ -21,3 +21,16 @@ Remote data logger project for use in engineering development and debugging of e
 - Graph readings from ESP32-C3
 - Talk with ESP32-C3 through Wi-Fi
 - Talk with ESP32-C3 through UART
+
+
+## Git
+Update submodules manually:
+```
+git submodule update  --init --recursive
+```
+
+Configure repo to use custom `.githooks` path and make files executable:
+```
+git config --local core.hooksPath .githooks/
+chmod -R +x .githooks
+```

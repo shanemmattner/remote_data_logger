@@ -2364,7 +2364,7 @@
     (uuid 4e2acedb-5ff0-4166-abf1-f84a1ed4b400)
     (property "Reference" "R11" (id 0) (at 269.24 203.2 90))
     (property "Value" "3.92k" (id 1) (at 269.24 205.74 90))
-    (property "Footprint" "" (id 2) (at 269.24 209.55 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 269.24 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 269.24 209.55 0)
@@ -3787,7 +3787,7 @@
       (reference "R10") (unit 1) (value "1.6k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4e2acedb-5ff0-4166-abf1-f84a1ed4b400"
-      (reference "R11") (unit 1) (value "3.92k") (footprint "")
+      (reference "R11") (unit 1) (value "3.92k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/e3c2ed51-1049-49c0-b06d-ea5c1c23fb29"
       (reference "R12") (unit 1) (value "7.5k") (footprint "Resistor_SMD:R_0603_1608Metric")

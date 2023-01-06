@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "lib")(type "KiCad")(uri "/home/shane/Desktop/Rust/Projects/remote_data_logger/hardware/kicad_libraries/lib.pretty")(options "")(descr ""))
+  (lib (name "1_project_footprints")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libraries/remote_data_logger.pretty")(options "")(descr ""))
 )

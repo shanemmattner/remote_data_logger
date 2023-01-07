@@ -2,11 +2,11 @@
   (layer "F.Cu")
   (tedit 638D0DDF)
   (attr through_hole)
-  (fp_text reference "REF**" (at 0.675 -3.135) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.675 -3.135) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a595a79b-2710-4873-9cec-eb7b10609ee6)
   )
-  (fp_text value "8-WDFN Exposed Pad" (at 9.565 3.135) (layer "F.Fab")
+  (fp_text value "8-WDFN Exposed Pad" (at 9.565 3.135) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4430d73d-c12e-450a-b00c-4bf030ff553c)
   )

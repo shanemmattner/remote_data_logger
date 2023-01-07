@@ -2,15 +2,15 @@
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 29f9fe36-8680-4285-a20f-718dd151654d)
   )
-  (fp_text value "LM321MF" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "LM321MF" (at 0 1 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 960696ec-6739-4edd-93cb-a098d3d89fe0)
   )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9aa56cca-b3df-45c5-a8fb-867f9e1abfa7)
   )

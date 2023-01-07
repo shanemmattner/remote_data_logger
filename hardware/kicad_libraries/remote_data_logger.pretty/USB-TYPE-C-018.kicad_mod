@@ -2,15 +2,15 @@
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 86194d92-eab6-4a58-b925-48d25bea1270)
   )
-  (fp_text value "USB-TYPE-C-018" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "USB-TYPE-C-018" (at 0 1 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cb54f023-a7ed-4c34-ac1b-97c5f171dd08)
   )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c0530b1f-3be0-4e81-97d1-23a724f264ce)
   )

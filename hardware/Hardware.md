@@ -10,8 +10,9 @@ This document is for the hardware portion of the project.
     - Only need `USB D+/D-` pins `18/19` to program the ESP32-C3 because it has a `integrated USB Serial/JTAG Controller`, see [doc](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/api-guides/usb-serial-jtag-console.html)
     - [USB C plug vs recepticle](https://www.arrow.com/en/research-and-events/articles/usb-technology-c-plug-and-receptacle-pinouts)
 5. Add power circuits
-    - `USB` 
-    - `Battery 3.7v`
+    - Linear LDO will do for the first version
+    - Need `0.5A` max
+    - Add [PMOS reverse polarity protection circuit](https://components101.com/articles/design-guide-pmos-mosfet-for-reverse-voltage-polarity-protection)
 6. ADC circuit
     - Op-amp voltage follower
     - 5 voltage ranges monitored:
@@ -30,7 +31,7 @@ JLCPCB is the cheapest board house including assembly.  But you have to use thei
 3. Insteall [lc2kicad](https://github.com/RigoLigoRLC/LC2KiCad)
 4. Alias the command so it's easier to user
 ```bash
-alias lc2kicad="/home/shane/Desktop/lc2kicad/build/lc2kicad"
+alias lc2kicad="${Path_to_repo}/submodules/lc2kicad/build/lc2kicad"
 ```
 5. Convert `EasyEDA` footprint to KiCAD
 ```bash
@@ -56,4 +57,5 @@ https://jlcpcb.com/parts
 
 ## Notes
 - Use relative path libraries in KiCAD
-
+- Make sure all data sheets are saved
+- Add thermistor circuits

@@ -59,3 +59,4 @@ https://jlcpcb.com/parts
 - Use relative path libraries in KiCAD
 - Make sure all data sheets are saved
 - Add thermistor circuits
+- Add I2C power bus reset circuit

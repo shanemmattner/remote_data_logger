@@ -5,11 +5,9 @@ Remote data logger project for use in engineering development and debugging of e
 
 ### Hardware
 - ESP32-C3 circuit
-- programming circuit
-- battery circuit
 - uart connection to target
-- ADC ic chip circuit
 - uSD card
+- 16 GPIO
 
 ### Firmware
 - ADC reading

@@ -60,3 +60,5 @@ https://jlcpcb.com/parts
 - Make sure all data sheets are saved
 - Add thermistor circuits
 - Add I2C power bus reset circuit
+- Add decoupling caps near USB trace switching planes
+    - [info](https://electronics.stackexchange.com/questions/141264/can-differential-usb-traces-be-routed-relative-to-power-not-ground-planes)
